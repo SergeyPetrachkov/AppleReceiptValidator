@@ -1,4 +1,4 @@
-#Apple Receipt Validator
+# Apple Receipt Validator
 
 ## How to use CLI: 
 

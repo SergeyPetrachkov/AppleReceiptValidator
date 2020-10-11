@@ -2,7 +2,17 @@
 
 ## How to use CLI: 
 
-`/Path/To/You/Binary/AppleReceiptValidatorCLI --receipt <your-receipt-base64-string> --secret <your-secret> --print-as-json true`
+Go to the directory with the project and run release command like:
+
+```
+cd ~/AppleReceiptValidator && make release
+```
+
+Then run executable with your parameters:
+
+```
+./.release/release/AppleReceiptValidatorCLI --receipt <your-receipt-base64-string> --secret <your-secret> --print-as-json true
+```
 
 ## How to use this as a package:
 
